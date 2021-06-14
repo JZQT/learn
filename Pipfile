@@ -3,6 +3,10 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
+[scripts]
+image-sampling = "python -m learn.image.sampling"
+image-quantization = "python -m learn.image.quantization"
+
 [packages]
 matplotlib = "*"
 scikit-image = "*"
